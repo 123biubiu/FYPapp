@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zyascend.MyAlarm">
+
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+
+
+    <application
+        >
+        <activity android:name=".activity.MainAlarmActivity">
+        </activity>
+        <activity
+            android:name=".activity.AddAlarmActivity"
+            android:label="@string/title_activity_add_alarm">
+        </activity>
+        <activity
+            android:name=".activity.EditAlarmActivity"
+            android:label="@string/title_activity_edit_alarm">
+        </activity>
+        <activity
+            android:name=".activity.QuestionActivity"
+            android:label="设置问题">
+        </activity>
+
+        <receiver android:name=".MyAlarmReceiver"/>
+
+        <receiver android:name=".SnoozeReceiver"/>
+
+        <activity android:name=".activity.PlayAlarmActivity"
+            android:launchMode="singleTask"/>
+
+        <activity android:name=".activity.AboutActivity"/>
+
+        <service android:name=".AlarmService"/>
+
+        <receiver android:name=".AlarmService$RebootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

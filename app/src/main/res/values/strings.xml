@@ -1,0 +1,68 @@
+<resources>
+
+    <string name="app_name">the house of gold</string>
+    <array name="quyu"></array>
+    <array name="shijian"></array>
+    <array name="bujian"></array>
+    <array name="kemu"></array>
+    <string-array name="languages">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+<!--    <string name="current_location">select your current location</string>-->
+<!--    <string-array name="locations">-->
+<!--        <item>SELECT YOUR CURRENT LOCATION</item>-->
+<!--        <item>West_door</item>-->
+<!--        <item>FB</item>-->
+<!--        <item>CB</item>-->
+<!--        <item>Global_center</item>-->
+<!--        <item>Basement_Parking</item>-->
+<!--    </string-array>-->
+
+    <string name="time_quantum_start">when will you start using lounge </string>
+    <string-array name="time_quantum_start">
+        <item>WHEN WILL YOU START USE THE LOUNGE</item>
+        <item>8:00 </item>
+        <item>9:00 </item>
+        <item>10:00 </item>
+        <item>11:00 </item>
+        <item>12:00 </item>
+        <item>13:00 </item>
+        <item>14:00 </item>
+        <item>15:00 </item>
+        <item>16:00 </item>
+        <item>17:00 </item>
+        <item>18:00 </item>
+        <item>19:00 </item>
+        <item>20:00 </item>
+        <item>21:00 </item>
+        <item>22:00 </item>
+        <item>23:00 </item>
+    </string-array>
+
+    <string name="time_quantum_end">when will you start using lounge </string>
+    <string-array name="time_quantum_end">
+        <item>WHEN WILL YOU LEAVE THE LOUNGE</item>
+        <item>9:00 </item>
+        <item>10:00 </item>
+        <item>11:00 </item>
+        <item>12:00 </item>
+        <item>13:00 </item>
+        <item>14:00 </item>
+        <item>15:00 </item>
+        <item>16:00 </item>
+        <item>17:00 </item>
+        <item>18:00 </item>
+        <item>19:00 </item>
+        <item>20:00 </item>
+        <item>21:00 </item>
+        <item>22:00 </item>
+        <item>23:00 </item>
+        <item>24:00 </item>
+
+    </string-array>
+</resources>

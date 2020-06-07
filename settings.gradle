@@ -1,0 +1,1 @@
+include ':app', ':timepick', ':map', ':alarm', ':Spickphotos', ':easeui'
